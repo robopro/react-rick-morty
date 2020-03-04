@@ -1,0 +1,7 @@
+.character-image-status {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 75%;
+    background-color: rgba(220, 220, 220, 0.9);
+}

@@ -1,0 +1,26 @@
+.card-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    pointer-events: auto;
+    content: "";
+    background-color: rgba(255, 255, 255, 0.4);
+    transition: all 0.3s ease-in-out;
+}
+
+@media (min-width: 992px) {
+    .character-card {
+        max-width: 30%;
+    }
+
+    .card-overlay {
+        opacity: 0;
+    }
+
+    .card-overlay:hover {
+        opacity: 1;
+    }
+}
