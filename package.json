@@ -1,5 +1,6 @@
 {
   "name": "rick_and_morty",
+  "homepage": "https://robopro.github.io/react-rick-morty/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

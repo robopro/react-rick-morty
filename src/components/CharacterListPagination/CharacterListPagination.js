@@ -50,14 +50,14 @@ class CharacterListPagination extends React.Component {
     
     if (currentPage > 2) {
       const prevPage = currentPage - 1;
-      elements.push(<Pagination.Item onClick={ () => this.onPaginationClick(prevPage) }>{ prevPage }</Pagination.Item>);
+      elements.push(<Pagination.Item key={elements.length + 1} onClick={ () => this.onPaginationClick(prevPage) }>{ prevPage }</Pagination.Item>);
     }
     if (currentPage > 1 && currentPage < pages) {
-      elements.push(<Pagination.Item active disabled>{ currentPage }</Pagination.Item>);
+      elements.push(<Pagination.Item key={elements.length + 1} active disabled>{ currentPage }</Pagination.Item>);
     }
     if (currentPage < pages - 1) {
       const nextPage = currentPage + 1;
-      elements.push(<Pagination.Item onClick={ () => this.onPaginationClick(nextPage) } >{ nextPage }</Pagination.Item>);
+      elements.push(<Pagination.Item key={elements.length + 1} onClick={ () => this.onPaginationClick(nextPage) } >{ nextPage }</Pagination.Item>);
     }
     return elements;
   }

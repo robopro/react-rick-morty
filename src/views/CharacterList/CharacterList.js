@@ -89,7 +89,7 @@ class CharacterList extends React.Component {
       <div className="col-sm-12 col-lg-8 d-flex flex-column align-items-center">
         <CharacterListPagination { ...paginationProps }></CharacterListPagination>
         <SearchForm searchChanged={ this.handleSearchChanged }></SearchForm>
-        <div className="d-flex flex-wrap justify-content-center justify-content-lg-start">
+        <div className="w-100 d-flex flex-wrap justify-content-center justify-content-lg-start">
           { characterElements }
         </div>
       </div>
