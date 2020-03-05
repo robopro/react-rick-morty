@@ -42,7 +42,7 @@ class CharacterListPagination extends React.Component {
     return { first: firstProps, last: lastProps };
   }
   
-  /** Creates the necessary paginatino elements between the ellipses */
+  /** Creates the necessary pagination elements between the ellipses */
   setCurrentElements() {
     const currentPage = this.props.currentPage;
     const pages = this.props.pages;

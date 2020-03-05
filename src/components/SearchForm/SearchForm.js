@@ -18,7 +18,7 @@ class SearchForm extends React.Component {
 
   render() {
     return (
-      <Form inline>
+      <div className="d-flex flex-wrap">
         <FormControl 
           type="text" 
           placeholder="Search" 
@@ -34,7 +34,7 @@ class SearchForm extends React.Component {
         >
           Clear
         </Button>
-      </Form>
+      </div>
     );
   }
 }
