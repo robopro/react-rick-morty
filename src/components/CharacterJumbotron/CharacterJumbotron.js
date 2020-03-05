@@ -1,5 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Jumbotron from 'react-bootstrap/Jumbotron';
+import Button from 'react-bootstrap/Button';
 import './CharacterJumbotron.css';
 
 class CharacterJumbotron extends React.Component {
@@ -7,7 +9,8 @@ class CharacterJumbotron extends React.Component {
     const character = this.props.character;
 
     return(
-      <Jumbotron className="w-100 d-flex flex-wrap justify-content-around">
+      <Jumbotron className="w-100 d-flex flex-wrap justify-content-around position-relative">
+        <Button as={ Link } to='/' variant="info" className="back-button">Back</Button>
         <div className="position-relative mx-3 rounded-circle overflow-hidden">
           <img src={character.image} alt={character.name} />
           <p className={"character-image-status lead font-weight-bold " }>{ character.status }</p>

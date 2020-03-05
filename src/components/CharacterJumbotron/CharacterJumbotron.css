@@ -5,3 +5,9 @@
     top: 75%;
     background-color: rgba(220, 220, 220, 0.9);
 }
+
+.back-button {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+}
