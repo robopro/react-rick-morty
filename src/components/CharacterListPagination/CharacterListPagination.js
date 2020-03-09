@@ -4,6 +4,7 @@ import './CharacterListPagination.css';
 
 // This is a hell of a lot of work for a simple pagination bar.
 // Lemme know if you know how this can be refactored ;P
+// first- and lastProps are props for the bootstrap Pagination components.
 class CharacterListPagination extends React.Component {
   state = {
     firstProps: {

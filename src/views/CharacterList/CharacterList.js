@@ -28,6 +28,8 @@ class CharacterList extends React.Component {
       const url = API_URL + page;
       const response = await fetch(url).then(resp => resp.json())
       const pages = response.info.pages;
+      // response.info.next => "https://rickandmortyapi.com/api/character/?page=2"
+      // split to grab next page number, minus 1 to get current, or last page if last page.
       const currentPage = response.info.next.split('=')[1] - 1 || pages;
 
       this.setState({
