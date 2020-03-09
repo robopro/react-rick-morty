@@ -1,5 +1,5 @@
 # React Rick & Morty
-A small gallery of characters from [Rick & Morty](https://en.wikipedia.org/wiki/Rick_and_Morty). Made during training at [Experis Academy](https://experisacademy.no/), and bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A small gallery website of characters from [Rick & Morty](https://en.wikipedia.org/wiki/Rick_and_Morty), using the [Rick And Morty API](https://rickandmortyapi.com/). Made during training at [Experis Academy](https://experisacademy.no/), and bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
 <br />
 <br />
 The purpose of this project was to familiarize myself with React. Hence there is some funky code as a result of me playing around with the framework.
